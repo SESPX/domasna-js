@@ -77,7 +77,7 @@ if (wheels === 4) {
     vehicleType = 'unknown';
 }
 
-console.log("This vehicle is a " + vehicleType);
+console.log("This vehicle is a " + vehicleType)
 // 9. Zadaca dali mozes da kupish
 
 let money = 500;
@@ -103,9 +103,9 @@ let lowerLimit = 20;
 let upperLimit = 50;
 
 if (number >= lowerLimit && number <= upperLimit) {
-    console.log(number + " is within the range of " + lowerLimit + " and " + upperLimit);
+    console.log(number + " is within the range of " + lowerLimit + " and " + upperLimit)
 } else {
-    console.log(number + " is outside the specified range");
+    console.log(number + " is outside the specified range")
 }
 
 a=1;
