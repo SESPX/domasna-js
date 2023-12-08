@@ -1,0 +1,28 @@
+
+form {
+    width: 300px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .box {
+    width:100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ffff;
+    box-sizing: border-box; 
+  }
+  
+  .submitButton {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    border: 1px solid #4CAF50; 
+  }
+  
