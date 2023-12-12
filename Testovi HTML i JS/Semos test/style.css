@@ -6,11 +6,11 @@ body{
     background-size: 800px;
     background-repeat: no-repeat;
     margin: auto 0;
-    width: 100%;
+    width: 800px;
     height: 500px;
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    
 }
 .open {
     background-color:white;
@@ -84,7 +84,7 @@ body{
     padding: 10px 20px;
     height: 38px;
 }
-
+h1{}
 h2{
     color: #8A98BA;
     text-decoration: none;
@@ -127,10 +127,11 @@ h2{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    
     padding: 10px;
     margin-left: 50px;
-    margin-bottom: 0;
     width: 800px;
+    height: 150px;
     
 }
 .itln{
