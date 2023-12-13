@@ -3,10 +3,10 @@ body{
 }
 .bg{
     background-image: url(bg.jpg);
-    background-size: 800px;
+    background-size: 900px;
     background-repeat: no-repeat;
     margin: auto 0;
-    width: 800px;
+    width: 900px;
     height: 500px;
     display: flex;
     justify-content: space-between;
@@ -84,12 +84,15 @@ body{
     padding: 10px 20px;
     height: 38px;
 }
-h1{}
+h1{
+    margin: 0;
+    font-size: 50;
+}
 h2{
     color: #8A98BA;
     text-decoration: none;
     font-weight: 10px;
-    margin: 50px;
+    
 }
 .av-1{
     background-image:url(avatar-1.jpg);
@@ -126,11 +129,10 @@ h2{
 .div-2{
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
-    
+    align-items: flex-start;
     padding: 10px;
     margin-left: 50px;
-    width: 800px;
+    width: 900px;
     height: 150px;
     
 }
@@ -139,9 +141,16 @@ h2{
 }
 .avatars{
     display: flex;
-    margin: 100px;
+    margin-left: 100px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
     
 }
 .btn{
    padding: 10px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 10px;
 }
